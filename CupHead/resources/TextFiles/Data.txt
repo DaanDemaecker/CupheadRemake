@@ -1,0 +1,9 @@
+<Level="2">
+<CupHead="1">
+<BulletType1="1">
+<BulletType2="4">
+<Charm="1">
+<CursedLevel="0">
+<MasterVolume="3">
+<MusicVolume="7">
+<SFXVolume="9">

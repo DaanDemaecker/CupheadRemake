@@ -1,0 +1,4 @@
+<Time="56">
+<HpBonus="1">
+<ParryAmount="1">
+<SuperMeter="6">

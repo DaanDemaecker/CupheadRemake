@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Framework Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game Files\SpriteSheets">
+      <UniqueIdentifier>{af59d4a4-d071-4bd6-b87e-427a514870a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Managers">
+      <UniqueIdentifier>{fde14fa4-cbc9-46d4-9b17-f5ee2bbddee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Avatar">
+      <UniqueIdentifier>{9c69d45f-07ca-4872-b680-e7fb5580c85b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Miscellaneous">
+      <UniqueIdentifier>{8f4c0cb4-c473-41aa-950f-eb92ea8ba2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\UI">
+      <UniqueIdentifier>{1d7a5ca1-7662-4d36-9717-e24e09674383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Bullets">
+      <UniqueIdentifier>{9e0210b5-2344-4249-a355-2facc39631f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\LevelsAndObjects">
+      <UniqueIdentifier>{4cb0ced1-ffc0-4b78-b923-00d1140f6d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\LevelsAndObjects\Base">
+      <UniqueIdentifier>{d829ebe7-378f-48ba-ad71-b28624bd410d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\LevelsAndObjects\Tutorial">
+      <UniqueIdentifier>{c77fcff2-8353-4972-9b54-5684833c3789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\LevelsAndObjects\BotanicPanic">
+      <UniqueIdentifier>{9940a570-8a4e-4b21-951b-eeb4d9b1cb17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\LevelsAndObjects\BotanicPanic\Bosses">
+      <UniqueIdentifier>{1f2917c9-2675-4d3f-93d1-e709a81cba44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\General">
+      <UniqueIdentifier>{d18b34d5-97c6-4f8e-b8b0-a38026ac41d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Bullets\BigBullets">
+      <UniqueIdentifier>{a7b740b6-66fd-4ea5-a53d-c8ddaadeeba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Bullets\SmallBullets">
+      <UniqueIdentifier>{9b84b60d-e373-4468-b91a-6343e470f4d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\LevelsAndObjects\PlaneTutorial">
+      <UniqueIdentifier>{6fcfa4e5-6dbc-494d-9553-9c26a049c534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Bullets\Base">
+      <UniqueIdentifier>{45589775-84f3-4572-9dc7-36c5bd1b5723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Bullets\PlaneBullets">
+      <UniqueIdentifier>{752bca30-f245-43eb-990f-5be456a683bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Overworld">
+      <UniqueIdentifier>{430d7b28-086c-4212-918a-ee037297d07e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vector2f.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2x3.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundStream.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SVGParser.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BotanicPanic.cpp">
+      <Filter>Game Files\LevelsAndObjects\BotanicPanic</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Game Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Game Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialAttackSpriteSheet.cpp">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootSpriteSheet.cpp">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenEffectSpriteSheet.cpp">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClCompile>
+    <ClCompile Include="RunSpriteSheet.cpp">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClCompile>
+    <ClCompile Include="OneCycleSpriteSheet.cpp">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopSpriteSheet.cpp">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpSpriteSheet.cpp">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClCompile>
+    <ClCompile Include="Idle_AimSpriteSheet.cpp">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletSpriteSheet.cpp">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClCompile>
+    <ClCompile Include="OscillatingSpriteSheet.cpp">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClCompile>
+    <ClCompile Include="SalSpudder.cpp">
+      <Filter>Game Files\LevelsAndObjects\BotanicPanic\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="OllieBulb.cpp">
+      <Filter>Game Files\LevelsAndObjects\BotanicPanic\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaunceyChantenay.cpp">
+      <Filter>Game Files\LevelsAndObjects\BotanicPanic\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSpriteSheet.cpp">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSoundeffectManager.cpp">
+      <Filter>Game Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Avatar.cpp">
+      <Filter>Game Files\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Hud.cpp">
+      <Filter>Game Files\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenEffects.cpp">
+      <Filter>Game Files\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game Files\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Game Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Game Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSettings.cpp">
+      <Filter>Game Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseSettings.cpp">
+      <Filter>Game Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="WinScreen.cpp">
+      <Filter>Game Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="LoseScreen.cpp">
+      <Filter>Game Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentCard.cpp">
+      <Filter>Game Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>Game Files\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="HoraceRadiche.cpp">
+      <Filter>Game Files\LevelsAndObjects\BotanicPanic\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Game Files\LevelsAndObjects\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Game Files\LevelsAndObjects\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Game Files\LevelsAndObjects\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>Game Files\LevelsAndObjects\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManagerTutorial.cpp">
+      <Filter>Game Files\LevelsAndObjects\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Pyramid.cpp">
+      <Filter>Game Files\LevelsAndObjects\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Carrot.cpp">
+      <Filter>Game Files\LevelsAndObjects\BotanicPanic</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManagerBotanicPanic.cpp">
+      <Filter>Game Files\LevelsAndObjects\BotanicPanic</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Game Files\LevelsAndObjects\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="General.cpp">
+      <Filter>Game Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="OverworldAvatar.cpp">
+      <Filter>Game Files\Overworld</Filter>
+    </ClCompile>
+    <ClCompile Include="OverworldCamera.cpp">
+      <Filter>Game Files\Overworld</Filter>
+    </ClCompile>
+    <ClCompile Include="OverworldIsle.cpp">
+      <Filter>Game Files\Overworld</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuWord.cpp">
+      <Filter>Game Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="OverworldSettings.cpp">
+      <Filter>Game Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>Game Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="BigCharge.cpp">
+      <Filter>Game Files\Bullets\BigBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="BigChaser.cpp">
+      <Filter>Game Files\Bullets\BigBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="BigLobber.cpp">
+      <Filter>Game Files\Bullets\BigBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="BigPeaShooter.cpp">
+      <Filter>Game Files\Bullets\BigBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="BigRoundabout.cpp">
+      <Filter>Game Files\Bullets\BigBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="BigSpreadShot.cpp">
+      <Filter>Game Files\Bullets\BigBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Charge.cpp">
+      <Filter>Game Files\Bullets\SmallBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeBulletManager.cpp">
+      <Filter>Game Files\Bullets\SmallBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Chaser.cpp">
+      <Filter>Game Files\Bullets\SmallBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Lobber.cpp">
+      <Filter>Game Files\Bullets\SmallBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="PeaShooter.cpp">
+      <Filter>Game Files\Bullets\SmallBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Roundabout.cpp">
+      <Filter>Game Files\Bullets\SmallBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="SpreadShot.cpp">
+      <Filter>Game Files\Bullets\SmallBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalAvatar.cpp">
+      <Filter>Game Files\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneAvatar.cpp">
+      <Filter>Game Files\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneBulletManager.cpp">
+      <Filter>Game Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneTutorial.cpp">
+      <Filter>Game Files\LevelsAndObjects\PlaneTutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManagerPlaneTutorial.cpp">
+      <Filter>Game Files\LevelsAndObjects\PlaneTutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturningLoopSpriteSheet.cpp">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClCompile>
+    <ClCompile Include="BigBullet.cpp">
+      <Filter>Game Files\Bullets\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Game Files\Bullets\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanePeaShooter.cpp">
+      <Filter>Game Files\Bullets\PlaneBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniPeaShooter.cpp">
+      <Filter>Game Files\Bullets\PlaneBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="BigPlanePeaShooter.cpp">
+      <Filter>Game Files\Bullets\PlaneBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniBomb.cpp">
+      <Filter>Game Files\Bullets\PlaneBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="BigMiniBomb.cpp">
+      <Filter>Game Files\Bullets\PlaneBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaliceBomb.cpp">
+      <Filter>Game Files\Bullets\PlaneBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="BigChaliceBomb.cpp">
+      <Filter>Game Files\Bullets\PlaneBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="ChalicePeaShooter.cpp">
+      <Filter>Game Files\Bullets\PlaneBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaliceSpriteManager.cpp">
+      <Filter>Game Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaliceAvatar.cpp">
+      <Filter>Game Files\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpLoopSpriteSheet.cpp">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2x3.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundStream.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SVGParser.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BotanicPanic.h">
+      <Filter>Game Files\LevelsAndObjects\BotanicPanic</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletSpriteSheet.h">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClInclude>
+    <ClInclude Include="Idle_AimSpriteSheet.h">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpSpriteSheet.h">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClInclude>
+    <ClInclude Include="LoopSpriteSheet.h">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClInclude>
+    <ClInclude Include="OneCycleSpriteSheet.h">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClInclude>
+    <ClInclude Include="RunSpriteSheet.h">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenEffectSpriteSheet.h">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootSpriteSheet.h">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialAttackSpriteSheet.h">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Game Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>Game Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="OscillatingSpriteSheet.h">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClInclude>
+    <ClInclude Include="SalSpudder.h">
+      <Filter>Game Files\LevelsAndObjects\BotanicPanic\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="OllieBulb.h">
+      <Filter>Game Files\LevelsAndObjects\BotanicPanic\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaunceyChantenay.h">
+      <Filter>Game Files\LevelsAndObjects\BotanicPanic\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSpriteSheet.h">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSoundeffectManager.h">
+      <Filter>Game Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Avatar.h">
+      <Filter>Game Files\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Hud.h">
+      <Filter>Game Files\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenEffects.h">
+      <Filter>Game Files\Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game Files\Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Game Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Game Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSettings.h">
+      <Filter>Game Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseSettings.h">
+      <Filter>Game Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="WinScreen.h">
+      <Filter>Game Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="LoseScreen.h">
+      <Filter>Game Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentCard.h">
+      <Filter>Game Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.h">
+      <Filter>Game Files\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="HoraceRadiche.h">
+      <Filter>Game Files\LevelsAndObjects\BotanicPanic\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Game Files\LevelsAndObjects\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Game Files\LevelsAndObjects\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Game Files\LevelsAndObjects\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial.h">
+      <Filter>Game Files\LevelsAndObjects\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManagerTutorial.h">
+      <Filter>Game Files\LevelsAndObjects\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Pyramid.h">
+      <Filter>Game Files\LevelsAndObjects\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Carrot.h">
+      <Filter>Game Files\LevelsAndObjects\BotanicPanic</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManagerBotanicPanic.h">
+      <Filter>Game Files\LevelsAndObjects\BotanicPanic</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Game Files\LevelsAndObjects\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Game Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="General.h">
+      <Filter>Game Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="OverworldAvatar.h">
+      <Filter>Game Files\Overworld</Filter>
+    </ClInclude>
+    <ClInclude Include="OverworldCamera.h">
+      <Filter>Game Files\Overworld</Filter>
+    </ClInclude>
+    <ClInclude Include="OverworldIsle.h">
+      <Filter>Game Files\Overworld</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuWord.h">
+      <Filter>Game Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="OverworldSettings.h">
+      <Filter>Game Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>Game Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="BigCharge.h">
+      <Filter>Game Files\Bullets\BigBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BigChaser.h">
+      <Filter>Game Files\Bullets\BigBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BigLobber.h">
+      <Filter>Game Files\Bullets\BigBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BigPeaShooter.h">
+      <Filter>Game Files\Bullets\BigBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BigRoundabout.h">
+      <Filter>Game Files\Bullets\BigBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BigSpreadShot.h">
+      <Filter>Game Files\Bullets\BigBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Charge.h">
+      <Filter>Game Files\Bullets\SmallBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeBulletManager.h">
+      <Filter>Game Files\Bullets\SmallBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Chaser.h">
+      <Filter>Game Files\Bullets\SmallBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Lobber.h">
+      <Filter>Game Files\Bullets\SmallBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="PeaShooter.h">
+      <Filter>Game Files\Bullets\SmallBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Roundabout.h">
+      <Filter>Game Files\Bullets\SmallBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="SpreadShot.h">
+      <Filter>Game Files\Bullets\SmallBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalAvatar.h">
+      <Filter>Game Files\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneAvatar.h">
+      <Filter>Game Files\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneBulletManager.h">
+      <Filter>Game Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneTutorial.h">
+      <Filter>Game Files\LevelsAndObjects\PlaneTutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManagerPlaneTutorial.h">
+      <Filter>Game Files\LevelsAndObjects\PlaneTutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturningLoopSpriteSheet.h">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Game Files\Bullets\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BigBullet.h">
+      <Filter>Game Files\Bullets\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanePeaShooter.h">
+      <Filter>Game Files\Bullets\PlaneBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniPeaShooter.h">
+      <Filter>Game Files\Bullets\PlaneBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BigPlanePeaShooter.h">
+      <Filter>Game Files\Bullets\PlaneBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBomb.h">
+      <Filter>Game Files\Bullets\PlaneBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BigMiniBomb.h">
+      <Filter>Game Files\Bullets\PlaneBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaliceBomb.h">
+      <Filter>Game Files\Bullets\PlaneBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BigChaliceBomb.h">
+      <Filter>Game Files\Bullets\PlaneBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="ChalicePeaShooter.h">
+      <Filter>Game Files\Bullets\PlaneBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaliceSpriteManager.h">
+      <Filter>Game Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaliceAvatar.h">
+      <Filter>Game Files\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpLoopSpriteSheet.h">
+      <Filter>Game Files\SpriteSheets</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

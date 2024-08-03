@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg118"
+   width="6391"
+   height="720"
+   viewBox="0 0 6391 720"
+   sodipodi:docname="Tutorial.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs122" />
+  <sodipodi:namedview
+     id="namedview120"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.39555625"
+     inkscape:cx="1361.374"
+     inkscape:cy="-254.07259"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g124" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g124">
+    <image
+       width="6391"
+       height="720"
+       preserveAspectRatio="none"
+       xlink:href="Tutorial.png"
+       id="image126" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 6.3202136,649.71796 H 1401.8234 v -121.3481 h 197.1906 v 121.3481 h 345.0837 V 351.40388 h 190.8705 V 649.71796 H 3894.5156 V 455.05538 h 224.9996 V 650.982 h 720.5044 V 350.13983 h 184.5502 v 209.8311 h 173.1739 V 650.982 h 496.7688 V 535.95411 h 184.5502 V 649.71796 H 6391 V 0 H 2612.7763 V 403.22963 H 2468.6754 V 2.5280854 H 1.2640427 V 648.45392 Z"
+       id="path180" />
+  </g>
+</svg>
