@@ -4,6 +4,6 @@
 <BulletType2="4">
 <Charm="1">
 <CursedLevel="0">
-<MasterVolume="3">
+<MasterVolume="4">
 <MusicVolume="7">
 <SFXVolume="9">
